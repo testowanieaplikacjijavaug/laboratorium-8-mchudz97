@@ -67,23 +67,23 @@ public class CarEasyTest {
     public void test_drive_to_exception1(){
 
         EasyMock.expect(myFerrari.driveTo("Wlochy")).andThrow(new IllegalAccessError());
-
-        assertThrows(IllegalAccessError.class, () -> myFerrari.driveTo("Wlochy"));
+        EasyMock.replay(myFerrari);
+        assertThrows(IllegalAccessError.class, () -> {myFerrari.driveTo("Wlochy");});
     }
 
     @Test
     public void test_drive_to_exception2(){
 
         EasyMock.expect(myFerrari.driveTo("")).andThrow(new IllegalArgumentException());
-
-        assertThrows(IllegalArgumentException.class, () -> myFerrari.driveTo("Wlochy"));
+        EasyMock.replay(myFerrari);
+        assertThrows(IllegalArgumentException.class, () -> {myFerrari.driveTo("");});
     }
     @Test
     public void test_drive_to_exception3(){
 
         EasyMock.expect(myFerrari.driveTo(null)).andThrow(new IllegalArgumentException());
-
-        assertThrows(IllegalArgumentException.class, () -> myFerrari.driveTo("Wlochy"));
+        EasyMock.replay(myFerrari);
+        assertThrows(IllegalArgumentException.class, () -> {myFerrari.driveTo(null);});
     }
 
 }
