@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f04e63-fa03-4a1a-a384-bdfa0ed71dd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/NotesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/NotesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/NotesStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mocks/NotesStorageMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad3/NoteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad3/NotesServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Zad2/CarEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad2/CarEasyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,61 +39,93 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CarEasyTest">
-    <configuration name="CarEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NotesServiceTest">
+    <configuration name="NotesServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Zad2.*" />
+          <option name="PATTERN" value="Zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Zad2" />
-      <option name="MAIN_CLASS_NAME" value="Zad2.CarEasyTest" />
+      <option name="PACKAGE_NAME" value="Zad3" />
+      <option name="MAIN_CLASS_NAME" value="Zad3.NotesServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollaboratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab8" />
-      <option name="PACKAGE_NAME" value="Zad1" />
-      <option name="MAIN_CLASS_NAME" value="Zad1.CollaboratorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FriendshipsMongoEasyMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NotesServiceTest.noteServiceAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Zad2.*" />
+          <option name="PATTERN" value="Zad3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Zad2" />
-      <option name="MAIN_CLASS_NAME" value="Zad2.FriendshipsMongoEasyMockTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Zad3" />
+      <option name="MAIN_CLASS_NAME" value="Zad3.NotesServiceTest" />
+      <option name="METHOD_NAME" value="noteServiceAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NotesServiceTest.noteServiceAverageTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
-      <option name="PACKAGE_NAME" value="Zad1" />
-      <option name="MAIN_CLASS_NAME" value="Zad1.MainClassTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zad3" />
+      <option name="MAIN_CLASS_NAME" value="Zad3.NotesServiceTest" />
+      <option name="METHOD_NAME" value="noteServiceAverageTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesServiceTest.noteServiceAverageTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zad3" />
+      <option name="MAIN_CLASS_NAME" value="Zad3.NotesServiceTest" />
+      <option name="METHOD_NAME" value="noteServiceAverageTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesServiceTest.noteServiceAverageTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zad3" />
+      <option name="MAIN_CLASS_NAME" value="Zad3.NotesServiceTest" />
+      <option name="METHOD_NAME" value="noteServiceAverageTest3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarEasyTest" />
-        <item itemvalue="JUnit.FriendshipsMongoEasyMockTest" />
-        <item itemvalue="JUnit.CollaboratorTest" />
-        <item itemvalue="JUnit.MainClassTest" />
+        <item itemvalue="JUnit.NotesServiceTest" />
+        <item itemvalue="JUnit.NotesServiceTest.noteServiceAverageTest2" />
+        <item itemvalue="JUnit.NotesServiceTest.noteServiceAverageTest3" />
+        <item itemvalue="JUnit.NotesServiceTest.noteServiceAverageTest1" />
+        <item itemvalue="JUnit.NotesServiceTest.noteServiceAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586196084338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kozacki test repair car">
+      <created>1586196622984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586196622984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,45 +183,46 @@
     <MESSAGE value="kozacki test+ easy mock ssie" />
     <MESSAGE value="kozacki test xd" />
     <MESSAGE value="kozacki test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="kozacki test 2" />
+    <MESSAGE value="kozacki test repair car" />
+    <option name="LAST_COMMIT_MESSAGE" value="kozacki test repair car" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="33" key="CommitChangelistDialog2" timestamp="1586196083423">
+    <state x="523" y="33" key="CommitChangelistDialog2" timestamp="1586196622153">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="523" y="33" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1586196083423" />
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1586196612290">
+    <state x="523" y="33" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1586196622153" />
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1586204455904">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586196612290" />
-    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1586196612290">
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586204455904" />
+    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1586204455904">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586196612290" />
-    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1586196612290">
+    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586204455904" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1586204455904">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586196612290" />
-    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1586196612290">
+    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586204455904" />
+    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1586204455904">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586196612290" />
-    <state width="1864" height="320" key="GridCell.Tab.1.bottom" timestamp="1586166733074">
+    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586204455904" />
+    <state width="1864" height="320" key="GridCell.Tab.1.bottom" timestamp="1586203221748">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586166733074" />
-    <state width="1864" height="320" key="GridCell.Tab.1.center" timestamp="1586166733073">
+    <state width="1864" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586203221748" />
+    <state width="1864" height="320" key="GridCell.Tab.1.center" timestamp="1586203221747">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="320" key="GridCell.Tab.1.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586166733073" />
-    <state width="1864" height="320" key="GridCell.Tab.1.left" timestamp="1586166733073">
+    <state width="1864" height="320" key="GridCell.Tab.1.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586203221747" />
+    <state width="1864" height="320" key="GridCell.Tab.1.left" timestamp="1586203221747">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="320" key="GridCell.Tab.1.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586166733073" />
-    <state width="1864" height="320" key="GridCell.Tab.1.right" timestamp="1586166733074">
+    <state width="1864" height="320" key="GridCell.Tab.1.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586203221747" />
+    <state width="1864" height="320" key="GridCell.Tab.1.right" timestamp="1586203221747">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="320" key="GridCell.Tab.1.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586166733074" />
+    <state width="1864" height="320" key="GridCell.Tab.1.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586203221747" />
     <state x="373" y="82" key="Maven.ArtifactSearchDialog" timestamp="1586170353860">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
