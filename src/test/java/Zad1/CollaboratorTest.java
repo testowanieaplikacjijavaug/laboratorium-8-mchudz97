@@ -1,3 +1,6 @@
+package Zad1;
+
+import Code.Collaborator;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 

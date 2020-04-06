@@ -1,3 +1,8 @@
+package Zad1;
+
+import Code.Collaborator;
+import Code.MainClass;
+import org.easymock.EasyMock;
 import org.easymock.MockType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -45,30 +50,6 @@ public class MainClassTest {
     }
 
 
-    /*@Test
-    @DisplayName("EasyMock  mock fails")
-    public void justMock2(){
-
-        ArrayList<Collaborator> collsMock = mock( ArrayList.class);
-        Collaborator colMock1 = mock(Collaborator.class);
-        Collaborator colMock2 = mock(Collaborator.class);
-
-        expect(collsMock.get(3)).andReturn(colMock2);
-        expect(collsMock.add(colMock2)).andReturn(true);
-        expect(collsMock.add(colMock1)).andReturn(true);
-
-        replay(collsMock);
-
-        mcTest.setColls(collsMock);
-        mcTest.putColl(colMock1);
-        mcTest.putColl(colMock2);
-
-        Assertions.assertEquals(colMock2, mcTest.getColl(5)); // nie okreslilismy co getColl(5) ma zwracac,
-        verify(collsMock);  //bedzie blad asercji
-
-
-    }*/
-
 
 
     @Test
@@ -92,27 +73,7 @@ public class MainClassTest {
         verify(collsMock);
 
     }
-   /* @Test
-    @DisplayName("EasyMock strict mock fails if expected methods weren't used in stricted order")
-    public void strictMockFails(){
 
-        ArrayList<Collaborator> collsMock = mock(MockType.STRICT, ArrayList.class);
-        Collaborator colMock1 = mock(Collaborator.class);
-        Collaborator colMock2 = mock(Collaborator.class);
-
-        expect(collsMock.add(colMock2)).andReturn(true); // tutaj zostaly zamienione linie wzgledem pierwszego testu
-        expect(collsMock.add(colMock1)).andReturn(true); // co wywola blad asercji
-        expect(collsMock.get(1)).andReturn(colMock2);
-        replay(collsMock);
-
-        mcTest.setColls(collsMock);
-        mcTest.putColl(colMock1); //gdyby ta linia zostala zamieniona z ponizsza
-        mcTest.putColl(colMock2); //nie byloby bledu
-
-        Assertions.assertEquals(colMock2, mcTest.getColl(1));
-        verify(collsMock);//pokazuje brakujace metody
-
-    }*/
 
     @Test
     @DisplayName("EasyMock nice mock")
@@ -143,7 +104,7 @@ public class MainClassTest {
 
         expect(coll.returnSomething(5)).andReturn(3);
         expect(coll.returnSomething(3)).andReturn(5);
-        replay(coll);
+        EasyMock.replay(coll);
 
         //metoda returnSomethingMore jest niezamockowana metoda, dlatego dziala dalej tak jak powinna
 

@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f04e63-fa03-4a1a-a384-bdfa0ed71dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollaboratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/FriendsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/FriendshipsMongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/CarEasyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/EasyMockExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/FriendshipsMongoEasyMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collaborator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Code/Collaborator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Code/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CollaboratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad1/CollaboratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad1/MainClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,8 @@
   <component name="RunManager" selected="JUnit.CollaboratorTest">
     <configuration name="CollaboratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollaboratorTest" />
+      <option name="PACKAGE_NAME" value="Zad1" />
+      <option name="MAIN_CLASS_NAME" value="Zad1.CollaboratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,8 +55,8 @@
     </configuration>
     <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="PACKAGE_NAME" value="Zad1" />
+      <option name="MAIN_CLASS_NAME" value="Zad1.MainClassTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,6 +115,10 @@
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state width="1864" height="320" key="GridCell.Tab.1.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586166733074" />
+    <state x="373" y="82" key="Maven.ArtifactSearchDialog" timestamp="1586170353860">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="373" y="82" key="Maven.ArtifactSearchDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1586170353860" />
     <state x="531" y="226" key="run.anything.popup" timestamp="1586166248625">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
