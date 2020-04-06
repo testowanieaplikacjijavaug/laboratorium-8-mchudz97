@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f04e63-fa03-4a1a-a384-bdfa0ed71dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Code/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Code/FriendsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Code/FriendshipsMongo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Code/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/CarEasyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/EasyMockExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Zad2/FriendshipsMongoEasyMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Collaborator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Code/Collaborator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Code/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CollaboratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad1/CollaboratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad1/MainClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Zad2/FriendsCollectionEMTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Zad2/FriendshipsMongoEasyMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zad2/FriendshipsMongoEasyMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collaborator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CollaboratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainClassTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +37,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CollaboratorTest">
+  <component name="RunManager" selected="JUnit.FriendshipsMongoEasyMockTest">
     <configuration name="CollaboratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab8" />
       <option name="PACKAGE_NAME" value="Zad1" />
       <option name="MAIN_CLASS_NAME" value="Zad1.CollaboratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendshipsMongoEasyMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zad2" />
+      <option name="MAIN_CLASS_NAME" value="Zad2.FriendshipsMongoEasyMockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FriendshipsMongoEasyMockTest" />
         <item itemvalue="JUnit.CollaboratorTest" />
         <item itemvalue="JUnit.MainClassTest" />
       </list>
@@ -80,25 +90,41 @@
       <option name="presentableId" value="Default" />
       <updated>1586155638279</updated>
     </task>
+    <task id="LOCAL-00001" summary="car">
+      <created>1586193003358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586193003358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="car" />
+    <option name="LAST_COMMIT_MESSAGE" value="car" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1586166772545">
+    <state x="523" y="33" key="CommitChangelistDialog2" timestamp="1586193001871">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586166772545" />
-    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1586166772545">
+    <state x="523" y="33" key="CommitChangelistDialog2/0.0.1920.1030@0.0.1920.1030" timestamp="1586193001871" />
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1586194753854">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586166772545" />
-    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1586166772545">
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1586194753854" />
+    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1586194753853">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586166772545" />
-    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1586166772545">
+    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1586194753853" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1586194753853">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586166772545" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1586194753853" />
+    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1586194753854">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1586194753854" />
     <state width="1864" height="320" key="GridCell.Tab.1.bottom" timestamp="1586166733074">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
