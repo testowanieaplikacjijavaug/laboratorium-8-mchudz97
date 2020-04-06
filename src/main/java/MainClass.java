@@ -41,7 +41,11 @@ public class MainClass {
 
     }
 
+    public int somethingFromCollaborator(Collaborator col, int v1, int v2){
 
+        return col.returnSomethingMore(v1, v2);
+
+    }
 
 
 

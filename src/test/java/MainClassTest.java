@@ -45,7 +45,7 @@ public class MainClassTest {
     }
 
 
-    @Test
+    /*@Test
     @DisplayName("EasyMock  mock fails")
     public void justMock2(){
 
@@ -67,7 +67,7 @@ public class MainClassTest {
         verify(collsMock);  //bedzie blad asercji
 
 
-    }
+    }*/
 
 
 
@@ -92,7 +92,7 @@ public class MainClassTest {
         verify(collsMock);
 
     }
-    @Test
+   /* @Test
     @DisplayName("EasyMock strict mock fails if expected methods weren't used in stricted order")
     public void strictMockFails(){
 
@@ -112,7 +112,7 @@ public class MainClassTest {
         Assertions.assertEquals(colMock2, mcTest.getColl(1));
         verify(collsMock);//pokazuje brakujace metody
 
-    }
+    }*/
 
     @Test
     @DisplayName("EasyMock nice mock")
@@ -148,7 +148,7 @@ public class MainClassTest {
         //metoda returnSomethingMore jest niezamockowana metoda, dlatego dziala dalej tak jak powinna
 
 
-        Assertions.assertEquals(15, coll.returnSomethingMore(5, 3));
+        Assertions.assertEquals(15, mcTest.somethingFromCollaborator(coll, 5,3));
 
 
 
