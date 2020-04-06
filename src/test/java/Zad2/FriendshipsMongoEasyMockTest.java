@@ -104,10 +104,10 @@ public class FriendshipsMongoEasyMockTest {
     }
 
     @Test
-    public void addFrTest(){
+    public void addFrTestEx(){
 
 
-        Person kordjasz = createMock(Person.class);
+
         expect(friends.findByName("kordjasz")).andThrow(new IllegalArgumentException("spoko"));
         EasyMock.replay(friends);
 
@@ -115,4 +115,17 @@ public class FriendshipsMongoEasyMockTest {
 
 
     }
+    @Test
+    public void makeFriendsTestEx(){
+
+
+        expect(friends.findByName("kordjasz")).andThrow(new IllegalArgumentException("ta"));
+        EasyMock.replay(friends);
+
+        assertThatThrownBy(()-> friendships.makeFriends("kordjasz", "marjusz")).isInstanceOf(IllegalArgumentException.class);
+
+
+
+    }
+
 }
