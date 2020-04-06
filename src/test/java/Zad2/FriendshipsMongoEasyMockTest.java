@@ -11,6 +11,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.easymock.EasyMock.*;
 
 import java.util.Arrays;
@@ -69,7 +70,49 @@ public class FriendshipsMongoEasyMockTest {
 
     }
 
+    @Test
+    public void areFriendsTest2(){
 
 
+        List<String> listMock = createMock(List.class);
+        Person kordjasz = createMock(Person.class);
+        expect(friends.findByName("kordjasz")).andReturn(kordjasz);
+        expect(kordjasz.getFriends()).andReturn(listMock);
+        expect(listMock.contains("marjusz")).andReturn(true);
+        EasyMock.replay(friends);
+        EasyMock.replay(listMock);
+        EasyMock.replay(kordjasz);
 
+        assertThat(friendships.areFriends("kordjasz", "marjusz")).isTrue();
+
+    }
+    @Test
+    public void areFriendsTest_exception(){
+
+
+        List<String> listMock = createMock(List.class);
+        Person kordjasz = createMock(Person.class);
+        expect(friends.findByName("kordjasz")).andReturn(kordjasz);
+        expect(kordjasz.getFriends()).andReturn(listMock);
+        expect(listMock.contains("marjusz")).andThrow(new IllegalArgumentException("co"));
+        EasyMock.replay(friends);
+        EasyMock.replay(listMock);
+        EasyMock.replay(kordjasz);
+
+        assertThatThrownBy(()->friendships.areFriends("kordjasz", "marjusz")).isInstanceOf(IllegalArgumentException.class);
+
+    }
+
+    @Test
+    public void addFrTest(){
+
+
+        Person kordjasz = createMock(Person.class);
+        expect(friends.findByName("kordjasz")).andThrow(new IllegalArgumentException("spoko"));
+        EasyMock.replay(friends);
+
+        assertThatThrownBy(()->friendships.addFriend("kordjasz","aha")).isInstanceOf(IllegalArgumentException.class);
+
+
+    }
 }
